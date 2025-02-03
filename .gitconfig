@@ -1,0 +1,22 @@
+[core]
+    pager = delta
+	editor = nano
+	excludesfile = /Users/anthony/.gitignore_global
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    dark = true
+[merge]
+    conflictstyle = zdiff3
+
+[user]
+	name = Skyler
+	email = skyedoesthings1@gmail.com
+	signingkey = B924F4574057C7CE
+[commit]
+	gpgsign = true
+[diff]
+	noprefix = false
